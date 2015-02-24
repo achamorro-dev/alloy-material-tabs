@@ -1,0 +1,11 @@
+<Alloy>
+	<Window class="container">
+		<View class="statusbar-background"></View>
+		<View class="actionbar" id="actionbar">
+			<Button id="menu_icon" class="actionbar-main-icon" onClick="toggleMenu"></Button>
+			<Label id="menu_title" class="actionbar-title">Material Tabs</Label>
+		</View>
+		<View class="actionbar-shadow" id="actionbar_shadow"></View>
+		<Require src="menu" id="menu"></Require>
+	</Window>
+</Alloy>

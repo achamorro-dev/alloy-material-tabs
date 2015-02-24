@@ -1,0 +1,20 @@
+<Alloy>
+	<TableView id="menu_view" class="menu-view">
+		<TableViewRow class="menu-row" id="index_menu_row" onClick="menuItemFunction">
+			<ImageView class="menu-row-image" id="index_menu_row_image"></ImageView>
+			<Label class="menu-row-text" text="Menu 1"></Label>
+		</TableViewRow>
+		<TableViewRow class="menu-row" id="drivers_menu_row" onClick="menuItemFunction">
+			<ImageView class="menu-row-image" id="drivers_menu_row_image"></ImageView>
+			<Label class="menu-row-text" text="Menu 2"></Label>
+		</TableViewRow>
+		<TableViewRow class="menu-row" id="teams_menu_row" onClick="menuItemFunction">
+			<ImageView class="menu-row-image" id="teams_menu_row_image"></ImageView> 
+			<Label class="menu-row-text" text="Menu 3"></Label>
+		</TableViewRow>
+		<TableViewRow class="menu-row" id="races_menu_row" onClick="menuItemFunction">
+			<ImageView class="menu-row-image" id="races_menu_row_image"></ImageView>
+			<Label class="menu-row-text" text="Menu 4"></Label>
+		</TableViewRow>
+	</TableView>
+</Alloy>

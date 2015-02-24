@@ -1,0 +1,61 @@
+".main-window": {
+	backgroundColor: Alloy.CFG.window_background_color,
+	exitOnClose: true,
+	navBarHidden: true	
+},
+".statusbar-background": {
+	backgroundColor: Alloy.CFG.main_color,
+	height: '24dp',
+	top: 0,
+	zIndex: 5,
+	width: Ti.UI.FIT
+},
+".actionbar": {
+	backgroundColor: Alloy.CFG.main_color,
+	height: '56dp',
+	left: 0,
+	top: '24dp',
+	width: Ti.UI.FIT,
+	zIndex: 6
+},
+".actionbar-shadow": {
+	backgroundColor: 'black',
+	height: '57dp',
+	left: 0,
+	opacity: 0.2,
+	top: '24dp',
+	width: Ti.UI.FIT,
+	zIndex: 5
+},
+".actionbar-main-icon": {
+	backgroundColor: 'transparent',
+	backgroundImage: '/images/icons/menu.png',
+	left: '5dp',
+	height: '35dp',
+	width: '40dp'
+},
+".actionbar-return-icon": {
+	backgroundColor: 'transparent',
+	backgroundImage: '/images/icons/return.png',
+	left: '5dp',
+	height: '35dp',
+	width: '40dp'
+},
+".actionbar-title": {
+	color: "#FFF",
+	font: {
+		fontFamily: Alloy.CFG.title_font,
+		fontSize: Alloy.CFG.title_size,
+		fontWeight: 'bold'
+	},
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_LEFT,
+	left: '72dp'	
+},
+".list-view": {
+	backgroundColor: Alloy.CFG.window_background_color,
+	backgroundColor: 'grey',
+	layout: 'vertical',
+	top: '80dp',
+	width: Ti.UI.FIT,
+	zIndex: 3
+}
