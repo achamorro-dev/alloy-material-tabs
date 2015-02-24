@@ -1,0 +1,75 @@
+'.tabs-container':{
+	backgroundColor: '#FFFFFF',
+	height: Ti.UI.FIT,
+	left: '0',
+	top: '76dp',
+	width: Ti.UI.FIT,
+	zIndex: 6
+},
+'.tabs-list':{
+	backgroundColor: Alloy.CFG.main_color,
+	height:'48dp',
+	layout: 'horizontal',
+	left: 0,
+	scrollType: 'horizontal',
+	top: 0
+},
+'.tab-item':{
+	backgroundColor: Alloy.CFG.main_color,
+	bottom: 0,
+	color: '#FFFFFF',
+	font: {
+		fontFamily: Alloy.CFG.body2_font,
+		fontSize: Alloy.CFG.body2_size
+	},
+	height:'48dp',
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	width: '100dp'
+},
+'.tab-item-active':{
+	font: {
+		fontWeight: 'bold'
+	}
+},
+'.tabs-views':{
+	height: Ti.UI.FIT,
+	top:'48dp',
+	width: Ti.UI.FIT
+}
+/*,
+'.menu-row':{
+	backgroundColor: 'transparent',
+	height: '48dp',
+	selectedBackgroundColor: Alloy.CFG.dark_main_color,
+	width: '100%'
+},
+'.menu-row-image':{
+	left: '16dp',
+	height: '18dp',
+	opacity: 0.5,
+	width: '18dp'
+},
+'.menu-row-text':{
+	backgroundColor: 'transparent',
+	color: '#000000',
+	font: {
+		fontFamily: Alloy.CFG.body2_font,
+		fontSize: Alloy.CFG.body2_size
+	},
+	left: '72dp',
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+},
+'#index_menu_row_image':{
+	image: '/images/icons/home.png'
+},
+'#drivers_menu_row_image':{
+	image: '/images/icons/person.png'
+},
+'#teams_menu_row_image':{
+	image: '/images/icons/car.png'
+},
+'#races_menu_row_image':{
+	image: '/images/icons/gesture.png'
+}
+*/
+

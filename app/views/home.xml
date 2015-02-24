@@ -7,5 +7,6 @@
 		</View>
 		<View class="actionbar-shadow" id="actionbar_shadow"></View>
 		<Require src="menu" id="menu"></Require>
+		<Require src="tabs" id="tabs"></Require>
 	</Window>
 </Alloy>
