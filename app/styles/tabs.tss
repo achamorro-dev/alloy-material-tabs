@@ -2,7 +2,7 @@
 	backgroundColor: '#FFFFFF',
 	height: Ti.UI.FIT,
 	left: '0',
-	top: '76dp',
+	top: '80dp',
 	width: Ti.UI.FIT,
 	zIndex: 6
 },
@@ -20,7 +20,7 @@
 	color: '#FFFFFF',
 	font: {
 		fontFamily: Alloy.CFG.body2_font,
-		fontSize: Alloy.CFG.body2_size
+		fontSize: Alloy.CFG.subhead_size
 	},
 	height:'48dp',
 	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
