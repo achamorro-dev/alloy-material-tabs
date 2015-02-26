@@ -11,4 +11,9 @@ function scrollTabsViews(e){
 	$.removeClass(tabActive,"tab-item-active");
 	$.addClass(tabItem,"tab-item-active");
 	tabActive=tabItem;
+	return moveTabsListScroll(viewIdx);
+};
+
+function moveTabsListScroll(viewIdx){
+	return $.tabs_list.scrollTo((viewIdx-1)*100,0);
 };

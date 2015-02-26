@@ -1,5 +1,5 @@
 <Alloy autoStyle="true">
-	<ScrollView id="tabs" class="tabs-container">
+	<View id="tabs" class="tabs-container">
 		<ScrollView id="tabs_list" class="tabs-list">
 			<Label id="tab1" class="tab-item tab-item-active" text="TAB1" idx="1" onClick="clickTabItem"></Label>
 			<Label id="tab2" class="tab-item" text="TAB2" idx="2" onClick="clickTabItem"></Label>
@@ -8,6 +8,7 @@
 			<Label id="tab5" class="tab-item" text="TAB5" idx="5" onClick="clickTabItem"></Label>
 			<Label id="tab6" class="tab-item" text="TAB6" idx="6" onClick="clickTabItem"></Label>
 		</ScrollView>
+		<!-- <View id="tab_active_indicator" class="tab_active_indicator"></View> -->
 		<ScrollableView id="tabs_views" onScrollEnd="scrollTabsViews" class="tabs-views">
 			<View id="tab_view1" backgroundColor="#123">
 			   <Label>View 1</Label>
@@ -28,5 +29,5 @@
 				<Label>View 6</Label>
 			</View>
 		</ScrollableView>
-	</ScrollView>
+	</View>
 </Alloy>
