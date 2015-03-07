@@ -9,7 +9,7 @@ Ejemplo IOS
 
 Ejemplo Android
 
-![Android example]()
+![Android example](http://media.giphy.com/media/lLo0FT5XCp2jcjLeo/giphy.gif)
 
 En el fichero app/config.json se pueden configurar los colores principales de la aplicacion.
 
